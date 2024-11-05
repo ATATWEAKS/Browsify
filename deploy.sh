@@ -1,4 +1,4 @@
-if (( $# != 1 )); then
+if (( $# != 1                                                                                                                                       ); then
     >&2 echo "usage: deploy <deploy-branch>"
     exit
 fi
